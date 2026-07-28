@@ -14,6 +14,8 @@
 
 ## 👩‍💻 About Me
 
+**Engineering & delivery leader for web, iOS, Android, and CTV** — I turn AI into practical QA and release systems teams can actually run. Automate the rinse-and-repeat. Keep humans on judgment.
+
 ```python
 class DeliveryLeader:
     def __init__(self):
@@ -28,7 +30,7 @@ class DeliveryLeader:
             "day_to_day": ["Cursor", "Claude", "Playwright", "MCP", "Jira"],
             "delivery": ["Release judgment", "P0-P3 focus", "CI/CD gates"],
             "building": ["TestMCP", "ForgeQA", "Release Gate Lab", "War Room"],
-            "learning": ["Databricks", "Prompt evals", "RAG", "LangGraph"],
+            "learning": ["Databricks", "Prompt evals", "LangGraph"],
         }
 
     def how_i_work(self):
@@ -58,19 +60,19 @@ class DeliveryLeader:
     <td>Engineering & Delivery Leadership · AI Transformation · QA Engineering</td>
   </tr>
   <tr>
+    <td>📈</td>
+    <td><b>Impact I've led</b></td>
+    <td>635 Playwright tests across 7 suites · web smoke ~90% faster (hours → minutes)</td>
+  </tr>
+  <tr>
     <td>🔥</td>
-    <td><b>Already building with</b></td>
-    <td>Cursor, Claude, Playwright, MCP, Azure Pipelines, React/TypeScript</td>
+    <td><b>Building with</b></td>
+    <td>Cursor, Claude, Playwright, MCP, Docker, RAG / vector search, Azure Pipelines, React/TypeScript</td>
   </tr>
   <tr>
     <td>🌱</td>
-    <td><b>Currently learning</b></td>
-    <td>Databricks, prompt eval frameworks, RAG / vector search, LangGraph</td>
-  </tr>
-  <tr>
-    <td>🎯</td>
-    <td><b>Next up</b></td>
-    <td>Deeper TypeScript, Docker, stronger CI/CD, Andrew Ng-style evals</td>
+    <td><b>Learning next</b></td>
+    <td>Databricks, prompt eval frameworks, LangGraph, deeper TypeScript, stronger CI/CD</td>
   </tr>
   <tr>
     <td>💡</td>
@@ -85,14 +87,14 @@ class DeliveryLeader:
 </table>
 
 <p align="center">
-  <i>"10+ years across web, iOS, Android, and CTV — shipping fast with judgment, learning in public, and building systems teams can actually run."</i>
+  <i>"15+ years across web, iOS, Android, and CTV — shipping fast with judgment, learning in public, and building systems teams can actually run."</i>
 </p>
 
 ---
 
 ## 🚀 What I build in public
 
-These projects show how I think about Agile, shipping fast, release risk, live windows, and AI-assisted **QA Engineering** — a mix of project management, technical integration, QA Engineering practices, and a developer mindset.
+These projects show how I think about Agile, shipping fast, release risk, live windows, and AI-assisted **QA Engineering** — project management, technical integration, QA practices, and a builder mindset.
 
 | | Project | What it is |
 |:--:|:--|:--|
@@ -136,9 +138,10 @@ flowchart LR
   <img src="https://img.shields.io/badge/Appium-EE376D?style=for-the-badge&logo=appium&logoColor=white"/>
   <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white"/>
   <img src="https://img.shields.io/badge/Claude-D4A574?style=for-the-badge&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/LM%20Studio-111827?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/RAG%20%2F%20Vector%20search-6366F1?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
   <img src="https://img.shields.io/badge/Azure%20Pipelines-0078D4?style=for-the-badge&logo=azurepipelines&logoColor=white"/>
@@ -151,10 +154,8 @@ flowchart LR
 <p>
   <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
   <img src="https://img.shields.io/badge/Prompt%20eval%20frameworks-7C3AED?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/RAG%20%2F%20Vector%20search-6366F1?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Deeper%20TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/More%20CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </p>
 
@@ -176,6 +177,6 @@ Inspired by **Andrew Ng** and DeepLearning.AI — practical AI systems, evals, a
 
 ## ✨ Currently
 
-- 🚀 Building public portfolio labs that mirror real release and live-ops decisions
-- 🧪 Experimenting with building tools and working through tutorials
-- 🧩 Solving practical problems in Agile workflows with AI-assisted **QA Engineering**
+- 🚦 Shipping the public delivery loop end to end — [Release Gate live demo](https://release-gate-lab.vercel.app/) sits in the middle of **PR risk → tests → lean gate → live window**
+- 👩‍💻 Building portfolio labs that mirror real release and live-ops decisions (War Room, TestMCP, ForgeQA)
+- 🧠 Learning hands-on with a local second brain (search by meaning + Claude) so the AI tools I recommend are ones I've actually run
