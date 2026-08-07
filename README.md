@@ -29,7 +29,7 @@ class DeliveryLeader:
         return {
             "day_to_day": ["Cursor", "Claude", "Playwright", "MCP", "Jira"],
             "delivery": ["Release judgment", "P0-P3 focus", "CI/CD gates"],
-            "building": ["TestMCP", "ForgeQA", "Release Gate Lab", "War Room"],
+            "building": ["Weekly Risk Radar", "TestMCP", "ForgeQA", "Release Gate Lab", "War Room"],
             "learning": ["Databricks", "Prompt evals", "LangGraph"],
         }
 
@@ -62,7 +62,7 @@ class DeliveryLeader:
   <tr>
     <td>📈</td>
     <td><b>Impact I've led</b></td>
-    <td>635 Playwright tests across 7 suites · web smoke ~90% faster (hours → minutes)</td>
+    <td>635 Playwright tests · ~90% faster web smoke · AI PR risk → test plans · faster releases to market</td>
   </tr>
   <tr>
     <td>🔥</td>
@@ -98,6 +98,7 @@ These projects show how I think about Agile, shipping fast, release risk, live w
 
 | | Project | What it is |
 |:--:|:--|:--|
+| 📡 | **[Weekly Risk Radar](https://github.com/ramonacraft/weekly-risk-radar)** | Weekly app-release conductor — six platforms, P0–P2 (manual) aim, stakeholder go pack · [live demo](https://weekly-risk-radar.vercel.app/) |
 | 👩‍💻 | **[Live Event War Room](https://github.com/ramonacraft/live-event-war-room)** | Live-event ops board + living runbook (real signals + Healthy → Incident) |
 | 🚦 | **[Release Gate Lab](https://github.com/ramonacraft/release-gate-lab)** | Lean Playwright gate + go/no-go dashboard · [live demo](https://release-gate-lab.vercel.app/) |
 | 🧪 | **[TestMCP](https://github.com/ramonacraft/testmcp)** | PR changes → risk-ranked P0–P3 test plan (MCP + dashboard) |
@@ -107,17 +108,35 @@ These projects show how I think about Agile, shipping fast, release risk, live w
 
 ```mermaid
 flowchart LR
-  A["🧪 TestMCP<br/>PR risk"] --> B["⚒️ ForgeQA<br/>generate tests"]
+  R["📡 Weekly Risk Radar<br/>fixed-version risk"] --> A["🧪 TestMCP<br/>PR risk"]
+  A --> B["⚒️ ForgeQA<br/>generate tests"]
   B --> C["🚦 Release Gate<br/>lean Playwright"]
   C --> D["👩‍💻 War Room<br/>live window"]
 
+  style R fill:#FEF3C7,stroke:#D97706,color:#111827
   style A fill:#F8FAFC,stroke:#111827,color:#111827
   style B fill:#FEE2E2,stroke:#DC2626,color:#111827
   style C fill:#E5E7EB,stroke:#374151,color:#111827
   style D fill:#FCE7F3,stroke:#BE185D,color:#111827
 ```
 
-`PR risk → test generation → lean gate → live window view`
+`Weekly release risk → PR risk → test generation → lean gate → live window view`
+
+---
+
+## 🏆 Impact I've led
+
+Outcomes from leading QA and release quality across web, iOS, Android, and CTV — automation-first, then AI-native.
+
+| Impact | What changed |
+|:--|:--|
+| **Playwright automation at scale** | Directed a **635-test** Playwright framework across **7 regression suites** |
+| **Faster releases to market** | Cut web smoke from **~4 hours → 23 minutes** (**~90% faster**) so quality was a trusted gate, not a bottleneck |
+| **UI / smoke checks in the pipeline** | Integrated automated smoke and UI coverage into CI/CD so testing ran **with** development, not after it |
+| **Team reporting leaders used** | Moved reporting from ticket counts to **automation + AI impact**, release risk, and what we caught before prod |
+| **Analytics that steered priorities** | Partnered with BI / analytics so work mapped to **KPIs**, not only sprint volume |
+| **Refactor / platform work without drama** | Made SDK and modernization changes shippable with clear risk across **shared codebases and multiple app platforms** |
+| **AI in the daily workflow** | Onboarded engineers to AI tooling fast and shipped a **PR → risk-ranked tests** prediction layer (MCP) so humans stayed on judgment |
 
 ---
 
@@ -177,6 +196,7 @@ Inspired by **Andrew Ng** and DeepLearning.AI — practical AI systems, evals, a
 
 ## ✨ Currently
 
-- 🚦 Shipping the public delivery loop end to end — [Release Gate live demo](https://release-gate-lab.vercel.app/) sits in the middle of **PR risk → tests → lean gate → live window**
+- 📡 Shipping **[Weekly Risk Radar](https://weekly-risk-radar.vercel.app/)** — the weekly app-release conductor that ties the portfolio loop together
+- 🚦 Keeping the delivery loop public — [Release Gate live demo](https://release-gate-lab.vercel.app/) sits in **risk → tests → lean gate → live window**
 - 👩‍💻 Building portfolio labs that mirror real release and live-ops decisions (War Room, TestMCP, ForgeQA)
 - 🧠 Learning hands-on with a local second brain (search by meaning + Claude) so the AI tools I recommend are ones I've actually run
