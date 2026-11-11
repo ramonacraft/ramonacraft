@@ -5,188 +5,105 @@
   <a href="https://github.com/ramonacraft">
     <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="#-what-i-build-in-public">
-    <img src="https://img.shields.io/badge/Projects-111827?style=for-the-badge&logo=rocket&logoColor=white" />
+  <a href="#-proof-in-public">
+    <img src="https://img.shields.io/badge/Labs-111827?style=for-the-badge&logo=rocket&logoColor=white" />
   </a>
 </p>
 
 ---
 
-## 👩‍💻 About Me
+## Ramona Bonitatis
 
-**Hi, I'm Ramona.** I'm learning to build in public with AI. These labs are how I think about release risk, go/no-go, and keeping humans on judgment.
+**Digital-media QA and delivery leader** — client apps, CTV, and live windows. I run quality the way high-velocity streaming orgs need it: **risk first, shift-left, automation where it pays, humans on judgment.**
 
-```python
-class RamonaCraft:
-    def __init__(self):
-        self.name = "Ramona Bonitatis"
-        self.role = "Building in public"
-        self.focus = "Release risk · Go / no-go · AI-assisted quality"
-        self.location = "North Los Angeles 🌴"
-        self.platforms = ["Web", "iOS", "Android", "CTV"]
+At Fox News Digital I owned web/CMS Playwright into staging, an internal RC gate for apps, and AI-assisted PR risk + case generation (including **Cursor**) that replaced a heavy TestRail workflow. Public labs below are the same loop made visible: **release risk → what to verify → gate → live window.**
 
-    def skills(self):
-        return {
-            "day_to_day": ["Cursor", "Claude", "GitHub", "MCP", "Jira"],
-            "building": ["Weekly Risk Radar", "TestMCP", "ForgeQA", "Release Gate Lab", "War Room", "Loop Lab", "Magic Link Lab"],
-            "learning": ["Databricks", "Prompt evals", "LangGraph"],
-        }
-
-    def how_i_work(self):
-        return [
-            "Automate the rinse-and-repeat",
-            "Keep humans on edge cases + judgment",
-            "Lead with visuals so teams align fast",
-            "Ship small labs, learn in public",
-        ]
+```text
+Focus     Client / CTV quality · AI QA pilots · release readiness
+Stack     Playwright · CI gates · MCP / Cursor · Jira · Azure Pipelines
+Practice  TestNG / Selenium on Release Gate Lab (JD harness language)
+Based in  North Los Angeles · open to Burbank / streaming client-apps roles
 ```
 
 <p align="center">
-  <img alt="Woman coding at desk" width="320" src="https://raw.githubusercontent.com/ramonacraft/ramonacraft/main/assets/woman-coding-desk.gif">
+  <img alt="Working at the desk" width="280" src="https://raw.githubusercontent.com/ramonacraft/ramonacraft/main/assets/woman-coding-desk.gif">
 </p>
 
-### 🎯 Quick Snapshot
+### Quick snapshot
 
-<table>
-  <tr>
-    <td>📍</td>
-    <td><b>Based in</b></td>
-    <td>North Los Angeles</td>
-  </tr>
-  <tr>
-    <td>💼</td>
-    <td><b>Focus</b></td>
-    <td>Building in public · release risk · go/no-go · AI-assisted quality</td>
-  </tr>
-  <tr>
-    <td>📈</td>
-    <td><b>In public</b></td>
-    <td>7 labs · live demos · learning as I go</td>
-  </tr>
-  <tr>
-    <td>🔥</td>
-    <td><b>Building with</b></td>
-    <td>Cursor, Claude, GitHub, MCP, Jira</td>
-  </tr>
-  <tr>
-    <td>🌱</td>
-    <td><b>Learning next</b></td>
-    <td>Databricks, prompt eval frameworks, LangGraph</td>
-  </tr>
-  <tr>
-    <td>💡</td>
-    <td><b>Philosophy</b></td>
-    <td>Automate the rinse-and-repeat. Keep humans on judgment.</td>
-  </tr>
-  <tr>
-    <td>🤝</td>
-    <td><b>Here to</b></td>
-    <td>Ship small, show the work, get better in public</td>
-  </tr>
-</table>
-
-<p align="center">
-  <i>"Still learning. Shipping small. Having fun with it."</i>
-</p>
+| | | |
+|:--|:--|:--|
+| **Leadership** | Quality + delivery for web, iOS, Android, CTV | Risk-ranked smoke, residual-risk go/no-go, live-ops judgment |
+| **AI pilots** | Cursor + MCP for PR risk and what to verify | Evaluate → pilot → scale — not hype theater |
+| **Automation** | Lean trusted gates over giant suites nobody trusts | Playwright in public labs; Java/TestNG practice on the gate lab |
+| **Philosophy** | Automate the rinse-and-repeat | Keep humans on edge cases and ship decisions |
 
 ---
 
-## 🚀 What I build in public
+## Proof in public
 
-Practice projects around release readiness, live windows, and AI-assisted quality. The point is to show how I think, not to look like a finished product org.
+Public labs that mirror how I lead quality for client/CTV release trains. Interview shortlist first; supporting labs after.
 
-| | Project | What it is |
+### Bring to the conversation
+
+| | Lab | What a hiring manager should see |
 |:--:|:--|:--|
-| 📡 | **[Weekly Risk Radar](https://github.com/ramonacraft/weekly-risk-radar)** | Weekly app-release conductor — six platforms, P0–P2 (manual) aim, stakeholder go pack · [live demo](https://weekly-risk-radar.vercel.app/) |
-| 👩‍💻 | **[Live Event War Room](https://github.com/ramonacraft/live-event-war-room)** | Live-event ops board + living runbook (real signals + Healthy → Incident) |
-| 🚦 | **[Release Gate Lab](https://github.com/ramonacraft/release-gate-lab)** | Lean go/no-go dashboard for release decisions · [live demo](https://release-gate-lab.vercel.app/) |
-| 🧪 | **[TestMCP](https://github.com/ramonacraft/testmcp)** | PR changes → risk-ranked P0–P3 test plan (MCP + dashboard) |
-| ⚒️ | **[ForgeQA](https://github.com/ramonacraft/forgeqa)** | Plain-English goals to reviewable test plans |
-| 🔁 | **[Loop Lab](https://github.com/ramonacraft/loop-lab)** | Draft, score, retry, then pass or escalate — I QA the agents that QA the release · [live demo](https://loop-lab-loops.vercel.app/) |
-| 🔗 | **[Magic Link Lab](https://github.com/ramonacraft/magic-link-lab)** | Same eval loop for the gated-article path — web, iOS, and Android each need their own login |
+| 🧪 | **[TestMCP](https://github.com/ramonacraft/testmcp)** | PR change → risk score → P0–P3 plan. TCM-shaped case library + MCP tools. Closest public proof of AI-assisted shift-left. |
+| 🚦 | **[Release Gate Lab](https://github.com/ramonacraft/release-gate-lab)** | Lean smoke gate + human go/no-go + CI that holds deploy on fail · [live demo](https://release-gate-lab.vercel.app/). Also where I practice **TestNG/Selenium** against a real deployed URL — same gate job in JD harness language, not a claim of years on that stack. |
+| 📡 | **[Weekly Risk Radar](https://github.com/ramonacraft/weekly-risk-radar)** | Multi-platform weekly release risk (iOS / Android / tvOS / Fire TV / Android TV / Roku) · aimed P0–P2 slice · stakeholder residual-risk pack · [live demo](https://weekly-risk-radar.vercel.app/) |
+| 👩‍💻 | **[Live Event War Room](https://github.com/ramonacraft/live-event-war-room)** | Live-window ops board + runbook; HLS probe metrics on a **public sample stream** (startup / rebuffers / errors). UI assert ≠ player SDK QoE triage — both matter. |
 
-## 🔀 How the work connects
+### Supporting labs
 
-```mermaid
-flowchart LR
-  R["📡 Weekly Risk Radar<br/>fixed-version risk"] --> A["🧪 TestMCP<br/>PR risk"]
-  A --> B["⚒️ ForgeQA<br/>test plans"]
-  B --> C["🚦 Release Gate<br/>go / no-go"]
-  C --> D["👩‍💻 War Room<br/>live window"]
-  A --> L["🔁 Loop Lab<br/>grade the agent"]
-  A --> M["🔗 Magic Link Lab<br/>inbox to article"]
+| | Lab | Role in the story |
+|:--:|:--|:--|
+| ⚒️ | **[ForgeQA](https://github.com/ramonacraft/forgeqa)** | Local-first AI → reviewable Playwright plans. Pilot discipline, not a Selenium substitute. |
+| 🔁 | **[Loop Lab](https://github.com/ramonacraft/loop-lab)** | Draft → score → retry → escalate. Who grades the AI before it grades the release · [live demo](https://loop-lab-loops.vercel.app/) |
 
-  style R fill:#FEF3C7,stroke:#D97706,color:#111827
-  style A fill:#F8FAFC,stroke:#111827,color:#111827
-  style B fill:#FEE2E2,stroke:#DC2626,color:#111827
-  style C fill:#E5E7EB,stroke:#374151,color:#111827
-  style D fill:#FCE7F3,stroke:#BE185D,color:#111827
-  style L fill:#CCFBF1,stroke:#0D9488,color:#111827
-  style M fill:#E0F2FE,stroke:#0284C7,color:#111827
+Near-duplicates and course forks stay out of the interview narrative (e.g. Magic Link Lab, Databricks courseware). Private workspace stays private.
+
+---
+
+## How the work connects
+
+```text
+Weekly / version risk     →  PR risk + what to verify  →  Smoke gate + go/no-go  →  Live window
+(Weekly Risk Radar)          (TestMCP · ForgeQA)          (Release Gate Lab)         (War Room)
 ```
 
-`Weekly release risk → PR risk → test plans → go/no-go → live window view. Loop Lab grades the password path. Magic Link Lab grades inbox-to-article.`
+Same delivery loop I ran in digital media: aim effort at change risk, clear a thin trusted gate, then watch the live window with a runbook — not a wall of unreviewed automation.
 
 ---
 
-## 🏆 What I'm practicing
+## Stack honesty (on purpose)
 
-Public labs, not a work resume. This table will grow as I ship.
-
-| Lab | What I'm practicing |
+| What I have owned | What I’m practicing for Client Apps JDs |
 |:--|:--|
-| **Weekly Risk Radar** | One fixed version, many pillars, a stakeholder go pack |
-| **Release Gate Lab** | A lean go/no-go board people can actually read |
-| **Loop Lab** | Who grades the AI before it grades the release |
-| **TestMCP + ForgeQA** | Change → what to verify → a reviewable plan |
-| **War Room** | Live windows and a runbook that stays current |
+| Playwright web/CMS gates · Python RC gate for apps · in-house TCM · Cursor/AI for PR risk and cases · Azure Pipelines CI mindset | **Java · TestNG · Selenium** smoke against a deployed URL on **Release Gate Lab** — so the conversation is harness fluency, not résumé inflation |
+| Risk boards across web + mobile + CTV pillars | Jenkins as the same job-stage mental model as Azure (map, don’t pretend a second CI product) |
+| Playback / live-window judgment | Conviva/Mux-class QoE as **telemetry beside** UI automation — War Room shows probe concepts on a public sample, not product triage credentials |
+
+I don’t claim five years of TestNG I didn’t live. I do claim the **harness job**: smoke vs regression theater, RC gates, TCM, CI discipline, and AI pilots named on modern streaming QA manager postings.
 
 ---
 
-## 🛠️ Tech Stack & Tools
-
-<div align="center">
-
-### ✅ Working with now
-
-<p>
-  <img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude-D4A574?style=for-the-badge&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-</p>
-
-### 🌱 Learning next
-
-<p>
-  <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prompt%20eval%20frameworks-7C3AED?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge"/>
-</p>
-
-Inspired by **Andrew Ng** and DeepLearning.AI — practical AI systems, evals, and building with judgment, not hype.
-
-</div>
-
----
-
-## 💡 How I Work
+## How I lead quality
 
 | | |
 |:--|:--|
-| 🔁 **Automate the repeat** | Keep humans on edge cases, validating AI agent work, and release judgment. |
-| 🎯 **Trusted suites** | Prefer small P0–P3 suites over giant suites that quietly get deprioritized. |
-| 📊 **Fresh priorities** | Map work to what matters, not only ticket volume. |
-| 🎨 **Visual first** | Boards, flows, and dashboards over long walls of text. |
-| 📚 **Always learning** | New skills and tools, then put them to work. Prompt less. Show the work. |
+| **Risk first** | Rank what changed; aim P0–P3 at residual risk, not ticket volume. |
+| **Trusted gates** | Small suites that block deploy beat giant suites that get ignored. |
+| **AI as a management lever** | Pilot Cursor / MCP for focus and case generation; keep humans on judgment and sign-off. |
+| **Honest device limits** | Not every CTV path is forever-automatable; BrowserStack helps; judgment still owns the matrix. |
+| **Visual alignment** | Boards and go packs so Eng, QA, and stakeholders share one ship story. |
 
-## ✨ Currently
+---
 
-- 🔗 Shipping **[Magic Link Lab](https://github.com/ramonacraft/magic-link-lab)** — same eval loop for inbox-to-article. Web, iOS, and Android each need their own login
-- 🔁 Shipping **[Loop Lab](https://loop-lab-loops.vercel.app/)** — draft, score, retry, then pass or escalate. The missing piece: who grades the AI
-- 📡 Shipping **[Weekly Risk Radar](https://weekly-risk-radar.vercel.app/)** — the weekly app-release conductor that ties the portfolio loop together
-- 🚦 Keeping the delivery loop public — [Release Gate live demo](https://release-gate-lab.vercel.app/) sits in **risk → test plans → go/no-go → live window**
-- 👩‍💻 Building portfolio labs that mirror real release and live-ops decisions (War Room, TestMCP, ForgeQA)
-- 🧠 Learning hands-on with a local second brain (search by meaning + Claude) so the AI tools I recommend are ones I've actually run
+## Currently
+
+- Leading with **TestMCP**, **Release Gate Lab**, and **Risk Radar / War Room** as the public proof set for client/CTV quality leadership
+- Practicing **TestNG + Selenium** on Release Gate Lab so JD harness nouns map to a real smoke URL
+- Keeping the delivery loop public: risk → verify → gate → live window
+- Open to **Manager, Software QA Engineering (Client Apps / CTV)** roles in streaming — Burbank-area on-site friendly
+
+[LinkedIn](https://www.linkedin.com/in/analyticsrb) · [GitHub](https://github.com/ramonacraft)
